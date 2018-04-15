@@ -10,13 +10,6 @@
   </url>
   
   <url>
-    <loc>https://alexjinlei.github.io/post/newpost/</loc>
-    <lastmod>2018-04-15T08:56:15-04:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://alexjinlei.github.io/post/hadoop-demo-max-global-temperature/</loc>
     <lastmod>2018-04-15T06:57:05-04:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -66,7 +59,7 @@
   
   <url>
     <loc>https://alexjinlei.github.io/post/</loc>
-    <lastmod>2018-04-15T08:56:15-04:00</lastmod>
+    <lastmod>2018-04-15T06:57:05-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -88,13 +81,6 @@
   <url>
     <loc>https://alexjinlei.github.io/</loc>
     <lastmod>2018-04-15T03:35:00-04:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://alexjinlei.github.io/categories/uncategorized/</loc>
-    <lastmod>2018-04-15T08:56:15-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
