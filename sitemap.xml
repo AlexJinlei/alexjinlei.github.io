@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml-stylesheet type="text/xsl" href="https://alexjinlei.github.io/sitemap.xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>https://alexjinlei.github.io/about/</loc>
+    <lastmod>2018-04-15T03:35:00-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://alexjinlei.github.io/post/newpost/</loc>
+    <lastmod>2018-04-15T08:56:15-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://alexjinlei.github.io/post/hadoop-demo-max-global-temperature/</loc>
+    <lastmod>2018-04-15T06:57:05-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://alexjinlei.github.io/post/word-count-first-program-on-hadoop/</loc>
+    <lastmod>2018-04-15T03:19:19-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://alexjinlei.github.io/post/install-hadoop-3-0-0-on-macos-high-sierra-10-13-3/</loc>
+    <lastmod>2018-04-14T22:31:00-05:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://alexjinlei.github.io/tags/big-data/</loc>
+    <lastmod>2018-04-15T06:57:05-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://alexjinlei.github.io/categories/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://alexjinlei.github.io/tags/hadoop/</loc>
+    <lastmod>2018-04-15T06:57:05-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://alexjinlei.github.io/tags/mapreduce/</loc>
+    <lastmod>2018-04-15T06:57:05-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://alexjinlei.github.io/post/</loc>
+    <lastmod>2018-04-15T08:56:15-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://alexjinlei.github.io/tags/</loc>
+    <lastmod>2018-04-15T06:57:05-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://alexjinlei.github.io/categories/technique/</loc>
+    <lastmod>2018-04-15T06:57:05-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://alexjinlei.github.io/</loc>
+    <lastmod>2018-04-15T03:35:00-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://alexjinlei.github.io/categories/uncategorized/</loc>
+    <lastmod>2018-04-15T08:56:15-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
