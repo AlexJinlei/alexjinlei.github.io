@@ -13,10 +13,10 @@
     
     <item>
       <title>Max Global Temperature — Another Hadoop Demo Program</title>
-      <link>https://alexjinlei.github.io/post/hadoop-demo-max-global-temperature/</link>
+      <link>https://alexjinlei.github.io/post/technique/hadoop-demo-max-global-temperature/</link>
       <pubDate>Mon, 19 Mar 2018 00:00:00 -0400</pubDate>
       
-      <guid>https://alexjinlei.github.io/post/hadoop-demo-max-global-temperature/</guid>
+      <guid>https://alexjinlei.github.io/post/technique/hadoop-demo-max-global-temperature/</guid>
       <description>&lt;p&gt;In this post, we are going to go through another demo program on Hadoop - Max Global Temperature.&lt;/p&gt;
 
 &lt;h1 id=&#34;1-source-code&#34;&gt;1. Source Code&lt;/h1&gt;
@@ -26,10 +26,10 @@
     
     <item>
       <title>Word Count — the First Program on Hadoop</title>
-      <link>https://alexjinlei.github.io/post/word-count-first-program-on-hadoop/</link>
+      <link>https://alexjinlei.github.io/post/technique/word-count-first-program-on-hadoop/</link>
       <pubDate>Fri, 16 Mar 2018 00:00:00 -0400</pubDate>
       
-      <guid>https://alexjinlei.github.io/post/word-count-first-program-on-hadoop/</guid>
+      <guid>https://alexjinlei.github.io/post/technique/word-count-first-program-on-hadoop/</guid>
       <description>&lt;p&gt;In this post, I will talk about how to run the demo program &amp;ldquo;word count&amp;rdquo; in Hadoop environment.&lt;/p&gt;
 
 &lt;h1 id=&#34;1-source-code&#34;&gt;1. Source Code&lt;/h1&gt;

@@ -13,10 +13,10 @@
     
     <item>
       <title>Max Global Temperature — Another Hadoop Demo Program</title>
-      <link>https://alexjinlei.github.io/post/hadoop-demo-max-global-temperature/</link>
+      <link>https://alexjinlei.github.io/post/technique/hadoop-demo-max-global-temperature/</link>
       <pubDate>Mon, 19 Mar 2018 00:00:00 -0400</pubDate>
       
-      <guid>https://alexjinlei.github.io/post/hadoop-demo-max-global-temperature/</guid>
+      <guid>https://alexjinlei.github.io/post/technique/hadoop-demo-max-global-temperature/</guid>
       <description>&lt;p&gt;In this post, we are going to go through another demo program on Hadoop - Max Global Temperature.&lt;/p&gt;
 
 &lt;h1 id=&#34;1-source-code&#34;&gt;1. Source Code&lt;/h1&gt;
@@ -26,10 +26,10 @@
     
     <item>
       <title>Word Count — the First Program on Hadoop</title>
-      <link>https://alexjinlei.github.io/post/word-count-first-program-on-hadoop/</link>
+      <link>https://alexjinlei.github.io/post/technique/word-count-first-program-on-hadoop/</link>
       <pubDate>Fri, 16 Mar 2018 00:00:00 -0400</pubDate>
       
-      <guid>https://alexjinlei.github.io/post/word-count-first-program-on-hadoop/</guid>
+      <guid>https://alexjinlei.github.io/post/technique/word-count-first-program-on-hadoop/</guid>
       <description>&lt;p&gt;In this post, I will talk about how to run the demo program &amp;ldquo;word count&amp;rdquo; in Hadoop environment.&lt;/p&gt;
 
 &lt;h1 id=&#34;1-source-code&#34;&gt;1. Source Code&lt;/h1&gt;
@@ -39,10 +39,10 @@
     
     <item>
       <title>Install Hadoop 3.0.0 on macOS High Sierra 10.13.3</title>
-      <link>https://alexjinlei.github.io/post/install-hadoop-3-0-0-on-macos-high-sierra-10-13-3/</link>
+      <link>https://alexjinlei.github.io/post/technique/install-hadoop-3-0-0-on-macos-high-sierra-10-13-3/</link>
       <pubDate>Thu, 15 Mar 2018 15:33:48 -0500</pubDate>
       
-      <guid>https://alexjinlei.github.io/post/install-hadoop-3-0-0-on-macos-high-sierra-10-13-3/</guid>
+      <guid>https://alexjinlei.github.io/post/technique/install-hadoop-3-0-0-on-macos-high-sierra-10-13-3/</guid>
       <description>&lt;figure class=&#34;center&#34;&gt;
     
         &lt;img src=&#34;https://alexjinlei.github.io/img/hadoop-logo.png&#34; alt=&#34;hadoop-logo&#34; /&gt;

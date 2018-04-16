@@ -10,28 +10,42 @@
   </url>
   
   <url>
-    <loc>https://alexjinlei.github.io/post/hadoop-demo-max-global-temperature/</loc>
+    <loc>https://alexjinlei.github.io/post/code_exercise/leetcode804-unique-morse-code-words/</loc>
+    <lastmod>2018-04-15T23:47:57-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://alexjinlei.github.io/post/code_exercise/leetcode771-jewles-and-stones/</loc>
+    <lastmod>2018-04-15T23:21:30-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://alexjinlei.github.io/post/technique/hadoop-demo-max-global-temperature/</loc>
     <lastmod>2018-04-15T06:57:05-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://alexjinlei.github.io/post/word-count-first-program-on-hadoop/</loc>
+    <loc>https://alexjinlei.github.io/post/technique/word-count-first-program-on-hadoop/</loc>
     <lastmod>2018-04-15T03:19:19-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://alexjinlei.github.io/post/install-hadoop-3-0-0-on-macos-high-sierra-10-13-3/</loc>
+    <loc>https://alexjinlei.github.io/post/technique/install-hadoop-3-0-0-on-macos-high-sierra-10-13-3/</loc>
     <lastmod>2018-04-14T22:31:00-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://alexjinlei.github.io/post/the-spring-you-said/</loc>
+    <loc>https://alexjinlei.github.io/post/essay/the-spring-you-said/</loc>
     <lastmod>2018-04-15T17:02:00-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -46,6 +60,13 @@
   
   <url>
     <loc>https://alexjinlei.github.io/categories/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://alexjinlei.github.io/categories/coding-exercise/</loc>
+    <lastmod>2018-04-15T23:47:57-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -72,6 +93,13 @@
   </url>
   
   <url>
+    <loc>https://alexjinlei.github.io/tags/leetcode/</loc>
+    <lastmod>2018-04-15T23:47:57-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://alexjinlei.github.io/tags/mapreduce/</loc>
     <lastmod>2018-04-15T06:57:05-04:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -80,7 +108,7 @@
   
   <url>
     <loc>https://alexjinlei.github.io/post/</loc>
-    <lastmod>2018-04-15T06:57:05-04:00</lastmod>
+    <lastmod>2018-04-15T23:47:57-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
