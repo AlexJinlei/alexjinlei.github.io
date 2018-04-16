@@ -10,6 +10,13 @@
   </url>
   
   <url>
+    <loc>https://alexjinlei.github.io/post/code_exercise/leetcode461-hamming-distance/</loc>
+    <lastmod>2018-04-16T01:39:58-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://alexjinlei.github.io/post/code_exercise/leetcode804-unique-morse-code-words/</loc>
     <lastmod>2018-04-15T23:47:57-04:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -66,7 +73,7 @@
   
   <url>
     <loc>https://alexjinlei.github.io/categories/coding-exercise/</loc>
-    <lastmod>2018-04-15T23:47:57-04:00</lastmod>
+    <lastmod>2018-04-16T01:39:58-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -94,7 +101,7 @@
   
   <url>
     <loc>https://alexjinlei.github.io/tags/leetcode/</loc>
-    <lastmod>2018-04-15T23:47:57-04:00</lastmod>
+    <lastmod>2018-04-16T01:39:58-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -108,7 +115,7 @@
   
   <url>
     <loc>https://alexjinlei.github.io/post/</loc>
-    <lastmod>2018-04-15T23:47:57-04:00</lastmod>
+    <lastmod>2018-04-16T01:39:58-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
