@@ -91,7 +91,7 @@ For convenience, the full table for the 26 letters of the English alphabet is gi
 
 <meta itemprop="datePublished" content="2018-04-15T23:47:57-04:00" />
 <meta itemprop="dateModified" content="2018-04-15T23:47:57-04:00" />
-<meta itemprop="wordCount" content="239">
+<meta itemprop="wordCount" content="269">
 
 
 
@@ -260,15 +260,12 @@ words[i] will only consist of lowercase letters.</p>
         :type words: List[str]
         :rtype: int
         &quot;&quot;&quot;
-        encoded_set = set([])
+        encoded_set = set([]) # Create an empty set from an empty list.
         for word in words:
-            encoded = ''
-            #print(word)
+            encoded = '' # Initialize encoded as a empty string.
             for letter in word:
-                encoded += self.encoder[letter]
-            #print(encoded)
-            encoded_set.add(encoded)
-        #print(encoded_set)
+                encoded += self.encoder[letter] # Encode each letter in a word, append to encoded string.
+            encoded_set.add(encoded) # Add encoded string to set.
         return len(encoded_set)
 
 words = [&quot;gin&quot;, &quot;zen&quot;, &quot;gig&quot;, &quot;msg&quot;]
