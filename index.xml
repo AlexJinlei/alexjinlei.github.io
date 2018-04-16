@@ -54,7 +54,15 @@ I&amp;rsquo;m interested in Big Data, Machine Learning, AI, Computer Vision, and
       <pubDate>Thu, 15 Mar 2018 15:33:48 -0500</pubDate>
       
       <guid>https://alexjinlei.github.io/post/install-hadoop-3-0-0-on-macos-high-sierra-10-13-3/</guid>
-      <description>&lt;h2 id=&#34;1-check-if-java-is-installed&#34;&gt;1. Check if Java is installed.&lt;/h2&gt;
+      <description>&lt;figure class=&#34;center&#34;&gt;
+    
+        &lt;img src=&#34;https://alexjinlei.github.io/img/hadoop-logo.png&#34; alt=&#34;hadoop-logo&#34; /&gt;
+    
+    
+&lt;/figure&gt;
+
+
+&lt;h2 id=&#34;1-check-if-java-is-installed&#34;&gt;1. Check if Java is installed.&lt;/h2&gt;
 
 &lt;p&gt;In terminal, input:&lt;/p&gt;
 
