@@ -79,7 +79,14 @@
   </url>
   
   <url>
-    <loc>https://alexjinlei.github.io/categories/diary/</loc>
+    <loc>https://alexjinlei.github.io/tags/diary/</loc>
+    <lastmod>2018-04-15T17:02:00-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://alexjinlei.github.io/categories/essay/</loc>
     <lastmod>2018-04-15T17:02:00-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
