@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>Leetcode461: Hamming Distance - Flying Cat Alex&#39;s Blog</title>
+  <title>Leetcode001 Two Sum - Flying Cat Alex&#39;s Blog</title>
   <meta name="renderer" content="webkit" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
@@ -17,10 +17,9 @@
 
 
 <meta name="author" content="AlexJinlei" />
-  <meta name="description" content="Question: The Hamming distance between two integers is the number of positions at which the corresponding bits are different.
-Given two integers x and y, calculate the Hamming distance.
-Note: 0 ≤ x, y &amp;lt; 231.
-Example:  Input: x = 1, y = 4 Output: 2 Explanation: 1 (0 0 0 1) 4 (0 1 0 0) ↑ ↑  The above arrows point to positions where the corresponding bits are different." />
+  <meta name="description" content="Question: Given an array of integers, return indices of the two numbers such that they add up to a specific target.
+You may assume that each input would have exactly one solution, and you may not use the same element twice.
+Example:  Given nums = [2, 7, 11, 15], target = 9, Because nums[0] &#43; nums[1] = 2 &#43; 7 = 9, return [0, 1].  Solution1: Brute force method." />
 
   <meta name="keywords" content="Computer Science, Big Data, UAV" />
 
@@ -32,7 +31,7 @@ Example:  Input: x = 1, y = 4 Output: 2 Explanation: 1 (0 0 0 1) 4 (0 1 0 0) ↑
 <meta name="generator" content="Hugo 0.38.2" />
 
 
-<link rel="canonical" href="https://alexjinlei.github.io/post/code_exercise/leetcode461-hamming-distance/" />
+<link rel="canonical" href="https://alexjinlei.github.io/post/code_exercise/leetcode1-two-sum/" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -52,23 +51,18 @@ Example:  Input: x = 1, y = 4 Output: 2 Explanation: 1 (0 0 0 1) 4 (0 1 0 0) ↑
 
 
 
-<meta property="og:title" content="Leetcode461: Hamming Distance" />
-<meta property="og:description" content="Question: The Hamming distance between two integers is the number of positions at which the corresponding bits are different.
-Given two integers x and y, calculate the Hamming distance.
-Note: 0 ≤ x, y &lt; 231.
-Example:  Input: x = 1, y = 4 Output: 2 Explanation: 1 (0 0 0 1) 4 (0 1 0 0) ↑ ↑  The above arrows point to positions where the corresponding bits are different." />
+<meta property="og:title" content="Leetcode001 Two Sum" />
+<meta property="og:description" content="Question: Given an array of integers, return indices of the two numbers such that they add up to a specific target.
+You may assume that each input would have exactly one solution, and you may not use the same element twice.
+Example:  Given nums = [2, 7, 11, 15], target = 9, Because nums[0] &#43; nums[1] = 2 &#43; 7 = 9, return [0, 1].  Solution1: Brute force method." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://alexjinlei.github.io/post/code_exercise/leetcode461-hamming-distance/" />
+<meta property="og:url" content="https://alexjinlei.github.io/post/code_exercise/leetcode1-two-sum/" />
 
 
 
-<meta property="article:published_time" content="2018-04-16T01:39:58-04:00"/>
+<meta property="article:published_time" content="2018-04-18T00:43:38-04:00"/>
 
-<meta property="article:modified_time" content="2018-04-16T01:39:58-04:00"/>
-
-
-
-
+<meta property="article:modified_time" content="2018-04-18T00:43:38-04:00"/>
 
 
 
@@ -76,26 +70,28 @@ Example:  Input: x = 1, y = 4 Output: 2 Explanation: 1 (0 0 0 1) 4 (0 1 0 0) ↑
 
 
 
-<meta itemprop="name" content="Leetcode461: Hamming Distance">
-<meta itemprop="description" content="Question: The Hamming distance between two integers is the number of positions at which the corresponding bits are different.
-Given two integers x and y, calculate the Hamming distance.
-Note: 0 ≤ x, y &lt; 231.
-Example:  Input: x = 1, y = 4 Output: 2 Explanation: 1 (0 0 0 1) 4 (0 1 0 0) ↑ ↑  The above arrows point to positions where the corresponding bits are different.">
 
 
-<meta itemprop="datePublished" content="2018-04-16T01:39:58-04:00" />
-<meta itemprop="dateModified" content="2018-04-16T01:39:58-04:00" />
-<meta itemprop="wordCount" content="245">
+
+
+<meta itemprop="name" content="Leetcode001 Two Sum">
+<meta itemprop="description" content="Question: Given an array of integers, return indices of the two numbers such that they add up to a specific target.
+You may assume that each input would have exactly one solution, and you may not use the same element twice.
+Example:  Given nums = [2, 7, 11, 15], target = 9, Because nums[0] &#43; nums[1] = 2 &#43; 7 = 9, return [0, 1].  Solution1: Brute force method.">
+
+
+<meta itemprop="datePublished" content="2018-04-18T00:43:38-04:00" />
+<meta itemprop="dateModified" content="2018-04-18T00:43:38-04:00" />
+<meta itemprop="wordCount" content="191">
 
 
 
 <meta itemprop="keywords" content="leetcode," />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Leetcode461: Hamming Distance"/>
-<meta name="twitter:description" content="Question: The Hamming distance between two integers is the number of positions at which the corresponding bits are different.
-Given two integers x and y, calculate the Hamming distance.
-Note: 0 ≤ x, y &lt; 231.
-Example:  Input: x = 1, y = 4 Output: 2 Explanation: 1 (0 0 0 1) 4 (0 1 0 0) ↑ ↑  The above arrows point to positions where the corresponding bits are different."/>
+<meta name="twitter:title" content="Leetcode001 Two Sum"/>
+<meta name="twitter:description" content="Question: Given an array of integers, return indices of the two numbers such that they add up to a specific target.
+You may assume that each input would have exactly one solution, and you may not use the same element twice.
+Example:  Given nums = [2, 7, 11, 15], target = 9, Because nums[0] &#43; nums[1] = 2 &#43; 7 = 9, return [0, 1].  Solution1: Brute force method."/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -162,10 +158,10 @@ Example:  Input: x = 1, y = 4 Output: 2 Explanation: 1 (0 0 0 1) 4 (0 1 0 0) ↑
           <article class="post">
     
     <header class="post-header">
-      <h1 class="post-title">Leetcode461: Hamming Distance</h1>
+      <h1 class="post-title">Leetcode001 Two Sum</h1>
 
       <div class="post-meta">
-        <span class="post-time"> 2018-04-16 </span>
+        <span class="post-time"> 2018-04-18 </span>
         <div class="post-category">
             
               <a href="/categories/coding-exercise/"> Coding Exercise </a>
@@ -189,11 +185,9 @@ Example:  Input: x = 1, y = 4 Output: 2 Explanation: 1 (0 0 0 1) 4 (0 1 0 0) ↑
 <li>
 <ul>
 <li><a href="#question">Question:</a></li>
-<li><a href="#note">Note:</a></li>
 <li><a href="#example">Example:</a></li>
 <li><a href="#solution1">Solution1:</a></li>
 <li><a href="#solution2">Solution2:</a></li>
-<li><a href="#solution3">Solution3:</a></li>
 </ul></li>
 </ul></li>
 </ul>
@@ -207,94 +201,67 @@ Example:  Input: x = 1, y = 4 Output: 2 Explanation: 1 (0 0 0 1) 4 (0 1 0 0) ↑
 
 <h3 id="question">Question:</h3>
 
-<p>The <a href="https://en.wikipedia.org/wiki/Hamming_distance">Hamming distance</a> between two integers is the number of positions at which the corresponding bits are different.</p>
+<p>Given an array of integers, return indices of the two numbers such that they add up to a specific target.</p>
 
-<p>Given two integers <code>x</code> and <code>y</code>, calculate the Hamming distance.</p>
-
-<h3 id="note">Note:</h3>
-
-<p>0 ≤ <code>x</code>, <code>y</code> &lt; 2<sup>31</sup>.</p>
+<p>You may assume that each input would have exactly one solution, and you may not use the same element twice.</p>
 
 <h3 id="example">Example:</h3>
 
 <pre>
-Input: x = 1, y = 4
-Output: 2
+Given nums = [2, 7, 11, 15], target = 9,
 
-Explanation:
-1   (0 0 0 1)
-4   (0 1 0 0)
-       ↑   ↑
+Because nums[0] + nums[1] = 2 + 7 = 9,
+return [0, 1].
 </pre>
-
-<p>The above arrows point to positions where the corresponding bits are different.</p>
 
 <h3 id="solution1">Solution1:</h3>
 
-<p>Runtime: 40 ms. Beats 91.25 % of python3 submissions.</p>
+<p>Brute force method. Time complexity is $O(n^2)$.</p>
 
-<pre><code class="language-python"># python3
-class Solution:
-    def count1s(self, n):
-        cnt = 0 # Initialize counter cnt to 0.
-        while n:
-            cnt += n%2 # Add binary bits value to cnt.
-            n = n&gt;&gt;1 # Shift 1 bit to the right.
-        return cnt
-    def hammingDistance(self, x, y):
+<pre><code class="language-python">class Solution:
+    def twoSum(self, nums, target):
         &quot;&quot;&quot;
-        :type x: int
-        :type y: int
-        :rtype: int
+        :type nums: List[int]
+        :type target: int
+        :rtype: List[int]
         &quot;&quot;&quot;
-        return self.count1s(x^y) # x^y is x XOR y.
+        for i in range(len(nums)):
+            for j in range(i+1, len(nums)):
+                if (nums[i] + nums[j] == target):
+                    return [i, j]
 
-x = 1
-y = 4
+nums = [2, 7, 11, 15]
+target = 9
+result = Solution().twoSum(nums, target)
+</code></pre>
 
-counter = Solution()
-counter.hammingDistance(x,y)
+<pre><code class="language-python">def linkedlist2list(head):
+    num = []
+    current_ptr = head
+    while current_ptr is not None:
+        num.append(current_ptr.val)
+        current_ptr = current_ptr.next
+    return num
 </code></pre>
 
 <h3 id="solution2">Solution2:</h3>
 
-<p>Runtime: 40 ms. Beats 91.25 % of python3 submissions.</p>
+<p>Save the calculated results. Time complexity is $O(n)$.</p>
 
-<pre><code class="language-python"># python3
-class Solution:
-    def hammingDistance(self, x, y):
-        &quot;&quot;&quot;
-        :type x: int
-        :type y: int
-        :rtype: int
-        &quot;&quot;&quot;
-        return bin(x^y).count(&quot;1&quot;)
+<pre><code class="language-python">class Solution():
+    def twoSum(self, nums, target):
+        d = {}
+        for i, n in enumerate(nums):
+            diff = target - n
+            if diff in d:
+                return [d[diff], i]
+            else:
+                d[n] = i
+            
 
-x = 1
-y = 4
-
-counter = Solution()
-counter.hammingDistance(x,y)
-</code></pre>
-
-<h3 id="solution3">Solution3:</h3>
-
-<p>Runtime: 32 ms. Beats 100.00 % of python3 submissions.</p>
-
-<pre><code class="language-python"># python3
-class Solution(object):
-    def hammingDistance(self, x, y):
-        &quot;&quot;&quot;
-        :type x: int
-        :type y: int
-        :rtype: int
-        &quot;&quot;&quot;
-        xor = x ^ y
-        count = 0
-        for _ in range(32):
-            count += xor &amp; 1
-            xor = xor &gt;&gt; 1
-        return count
+nums = [2, 7, 11, 15]
+target = 9
+result = Solution().twoSum(nums, target)
 </code></pre>
 
     </div>
@@ -307,7 +274,7 @@ class Solution(object):
   </p>
   <p class="copyright-item">
     <span class="item-title">LastMod</span>
-    <span class="item-content">2018-04-16</span>
+    <span class="item-content">2018-04-18</span>
   </p>
   
   
@@ -326,14 +293,9 @@ class Solution(object):
       
       <nav class="post-nav">
         
-          <a class="prev" href="/post/code_exercise/leetcode1-two-sum/">
-            <i class="iconfont icon-left"></i>
-            <span class="prev-text nav-default">Leetcode001 Two Sum</span>
-            <span class="prev-text nav-mobile">Prev</span>
-          </a>
         
-          <a class="next" href="/post/code_exercise/leetcode804-unique-morse-code-words/">
-            <span class="next-text nav-default">Leetcode804: Unique Morse Code Words</span>
+          <a class="next" href="/post/code_exercise/leetcode461-hamming-distance/">
+            <span class="next-text nav-default">Leetcode461: Hamming Distance</span>
             <span class="prev-text nav-mobile">Next</span>
             <i class="iconfont icon-right"></i>
           </a>
