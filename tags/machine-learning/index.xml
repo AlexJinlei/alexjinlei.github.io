@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Machine Learning on Flying Cat Alex&#39;s Blog</title>
+    <link>https://alexjinlei.github.io/tags/machine-learning/</link>
+    <description>Recent content in Machine Learning on Flying Cat Alex&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 07 Jun 2018 13:39:45 -0400</lastBuildDate>
+    
+	<atom:link href="https://alexjinlei.github.io/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Logistic Regression</title>
+      <link>https://alexjinlei.github.io/post/technique/logistic-regression/</link>
+      <pubDate>Thu, 07 Jun 2018 13:39:45 -0400</pubDate>
+      
+      <guid>https://alexjinlei.github.io/post/technique/logistic-regression/</guid>
+      <description>Logistic regression is an algorithm for linear and binary classification problems. It is a classification, not regression algorithm.
+1. From odds ratio to sigmoidal logistic function If $p$ is the probability of a sample being a positive event, then the odds ratio is defined as: $$\textrm{odds ratio} = \frac{p}{1-p}. \tag{1.1}$$
+The logarithm of the odds ratio function is called logit function: $$z = \textrm{logit}(p) = log(\frac{p}{1-p}). \tag{1.2}$$
+Logit function maps the probability $\{p|p\in[0, 1]\}$ to the entire real domain $\{z|z\in(-\infty, +\infty)\}$.</description>
+    </item>
+    
+  </channel>
+</rss>
